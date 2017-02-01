@@ -1,0 +1,45 @@
+.roundTimer {
+  font-family: 'Open Sans',serif;
+  user-select: none;
+}
+
+@media (max-width: 740px) {
+  .roundTimer {
+    padding-top: 100px;
+  }
+}
+
+@media (max-height: 605px) {
+  .roundTimer {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+}
+
+.arrow {
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.number {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 50px;
+}
+
+.buttonContainer {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
+  width: 4em;
+  height: 4em;
+}
+
+.buttonContainer:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
